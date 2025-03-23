@@ -34,3 +34,48 @@ Next method is GET but here we have to find specific data by passing id so here 
 Next method is PUT here we want to update data according to the id so 1st lets get teh body then in end event pass async function and in it get the id convert it to ObjectId and then update using $set operator
 
 And last on is DELETE here similarly in try get id convert it and then delete it using deleteOne
+
+---
+
+TASK02-> Add validation to ensure required fields (e.g., title, author) are provided.
+
+db.createCollection("books", {
+validator: {
+$jsonSchema: {
+bsonType: "object", // 'Object' should be lowercase
+required: ["title", "author"],
+properties: {
+title: {
+bsonType: "string", // 'String' should be lowercase
+description: "Title must be a string"
+},
+author: {
+bsonType: "string", // 'String' should be lowercase
+description: "Author must be a string"
+}
+}
+}
+}
+});
+
+after crating collection and documents syntax ->
+db.runCommand({
+collMod: "books",
+validator: {
+$jsonSchema: {
+bsonType: "object",
+required: ["title", "author"],
+properties: {
+title: {
+bsonType: "string",
+description: "Title must be a string"
+},
+author: {
+bsonType: "string",
+description: "Author must be a string"
+}
+}
+}
+},
+validationLevel: "moderate" // Allows existing invalid documents
+});
