@@ -16,3 +16,21 @@ GET /books → Get all books.
 GET /books/:id → Get a book by ID.
 PUT /books/:id → Update a book's details.
 DELETE /books/:id → Delete a book.
+
+---
+
+Now lets understand how all this works
+SO 1st we try to connect the mongoDB with the help of a class(MongoClient) which imported from mongodb.
+Then we create an asynchronous function to connect the mongodb and access db,collections.
+in async 1st get the url of mongodb,then dbname with the and collection and return the collections
+And now perform tasks according to requests and methods
+
+So 1st task is to Post a new book(add new book to collection) -> Get the body and then in end event pass an async function convert the data into JSON and the add it using .insertOne
+
+Next method is GET use try and catch -> try find all datas using await collectionName.find()
+
+Next method is GET but here we have to find specific data by passing id so here 1st get the id using url.split and then convert id to objectId and then find the data
+
+Next method is PUT here we want to update data according to the id so 1st lets get teh body then in end event pass async function and in it get the id convert it to ObjectId and then update using $set operator
+
+And last on is DELETE here similarly in try get id convert it and then delete it using deleteOne
