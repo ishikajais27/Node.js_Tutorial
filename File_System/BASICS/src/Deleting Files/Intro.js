@@ -31,11 +31,10 @@ deleteFile()
 
 //Delete directories
 // Instead of rmdir + recursive options
-
-async function deleteDirectory() {
-  await fs.rm('data-cache', {
-    recursive: true,
-    force: true,
-  })
-}
-deleteDirectory()
+// async function deleteDirectory() {
+//   await fs.rm('data-cache', {
+//     recursive: true,
+//     force: true,
+//   })
+// }
+// deleteDirectory()

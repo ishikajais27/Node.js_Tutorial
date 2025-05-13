@@ -1,6 +1,6 @@
 # Introduction to fs Module
 
-Importing the fs module
+## Importing the fs module
 
 ## Synchronous vs. Asynchronous operations
 

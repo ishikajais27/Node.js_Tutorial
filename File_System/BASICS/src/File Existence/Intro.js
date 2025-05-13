@@ -28,3 +28,9 @@ async function checkFile() {
   }
 }
 checkFile()
+
+// File Constants
+// F_OK: Check file exists (default)
+// R_OK: Check readable
+// W_OK: Check writable
+// X_OK: Check executable
