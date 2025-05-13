@@ -1,0 +1,160 @@
+{
+  "library": [
+    {
+      "id": 1,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "genre": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "publishedYear": 2020,
+      "ISBN": "9780525559474",
+      "ratings": 4.2,
+      "availability": true,
+      "summary": "A woman explores parallel lives in a mystical library between life and death."
+    },
+    {
+      "id": 2,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": [
+        "Non-fiction",
+        "History",
+        "Anthropology"
+      ],
+      "publishedYear": 2011,
+      "ISBN": "9780062316097",
+      "ratings": 4.6,
+      "availability": false,
+      "summary": "A thought-provoking journey through the history of humankind."
+    },
+    {
+      "id": 3,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": [
+        "Self-help",
+        "Psychology"
+      ],
+      "publishedYear": 2018,
+      "ISBN": "9780735211292",
+      "ratings": 4.8,
+      "availability": true,
+      "summary": "A proven framework for improving habits and achieving long-term goals."
+    },
+    {
+      "id": 4,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "publishedYear": 1965,
+      "ISBN": "9780441172719",
+      "ratings": 4.4,
+      "availability": true,
+      "summary": "A classic sci-fi tale of politics, religion, and power on a desert planet."
+    },
+    {
+      "id": 5,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "publishedYear": 1937,
+      "ISBN": "9780345339683",
+      "ratings": 4.7,
+      "availability": false,
+      "summary": "Bilbo Baggins embarks on an unexpected journey through Middle-earth."
+    },
+    {
+      "id": 6,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": [
+        "Dystopian",
+        "Political Fiction"
+      ],
+      "publishedYear": 1949,
+      "ISBN": "9780451524935",
+      "ratings": 4.5,
+      "availability": true,
+      "summary": "A chilling portrayal of a totalitarian regime and constant surveillance."
+    },
+    {
+      "id": 7,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": [
+        "Fiction",
+        "Philosophy"
+      ],
+      "publishedYear": 1988,
+      "ISBN": "9780061122415",
+      "ratings": 4.3,
+      "availability": true,
+      "summary": "A spiritual journey of a shepherd in search of his personal legend."
+    },
+    {
+      "id": 8,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": [
+        "Classic",
+        "Coming-of-age"
+      ],
+      "publishedYear": 1960,
+      "ISBN": "9780061120084",
+      "ratings": 4.8,
+      "availability": false,
+      "summary": "A young girl’s perspective on race and justice in the American South."
+    },
+    {
+      "id": 9,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": [
+        "Thriller",
+        "Mystery",
+        "Psychological"
+      ],
+      "publishedYear": 2019,
+      "ISBN": "9781250301697",
+      "ratings": 4.1,
+      "availability": true,
+      "summary": "A psychotherapist attempts to unravel the mystery behind a patient’s silence."
+    },
+    {
+      "id": 10,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": [
+        "Memoir",
+        "Biography"
+      ],
+      "publishedYear": 2018,
+      "ISBN": "9780399590504",
+      "ratings": 4.7,
+      "availability": true,
+      "summary": "A memoir of a woman who escapes a survivalist family to seek education."
+    },
+    {
+      "title": "The Lost Pages",
+      "author": "Eleanor Wren",
+      "genre": [
+        "Mystery",
+        "Thriller"
+      ],
+      "publishedYear": 2023,
+      "ISBN": "9781234567890",
+      "ratings": 4.7,
+      "availability": false,
+      "summary": "A cryptic journal leads a young journalist into a web of secrets hidden in an abandoned city library.",
+      "id": null
+    }
+  ]
+}
